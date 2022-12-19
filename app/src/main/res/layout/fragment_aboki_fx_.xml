@@ -1,0 +1,481 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AbokiFx_Fragment">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+
+
+
+    <com.google.android.material.card.MaterialCardView
+        android:id="@+id/card_usd"
+        android:layout_width="match_parent"
+        android:layout_height="70dp">
+
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="1 USD"
+            android:textStyle="normal"
+            android:drawablePadding="5dp"
+            android:drawableLeft="@drawable/us"
+            android:textSize="16sp"
+            android:layout_gravity="center"/>
+
+
+        <TextView
+            android:id="@+id/buy6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="BUY"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="100dp"
+            android:layout_gravity="right"/>
+
+        <TextView
+            android:id="@+id/sell6"
+            android:layout_marginEnd="97dp"
+            android:layout_width="wrap_content"
+            android:layout_marginTop="40dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="right"
+            android:text="SELL"/>
+
+
+
+        <TextView
+            android:id="@+id/buy_digit"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="₦742"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="30dp"
+            android:textColor="@color/black"
+            android:textStyle="bold"
+            android:layout_gravity="right"/>
+
+        <TextView
+            android:id="@+id/sell_digit"
+            android:layout_marginEnd="30dp"
+            android:textColor="@color/black"
+            android:textStyle="bold"
+            android:text="₦745"
+            android:layout_width="wrap_content"
+            android:layout_marginTop="40dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="right"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Date 17/12/2022"
+            android:gravity="center"
+            android:textStyle="bold"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="25dp"/>
+
+
+    </com.google.android.material.card.MaterialCardView>
+
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"/>
+
+
+        <com.google.android.material.card.MaterialCardView
+            android:layout_width="match_parent"
+            android:layout_height="70dp">
+
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="1 GBP"
+                android:textStyle="normal"
+                android:drawablePadding="5dp"
+                android:drawableLeft="@drawable/uk"
+                android:textSize="16sp"
+                android:layout_gravity="center"/>
+
+
+            <TextView
+                android:id="@+id/buy5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="BUY"
+                android:layout_marginTop="10dp"
+                android:layout_marginEnd="100dp"
+                android:layout_gravity="right"/>
+
+            <TextView
+                android:id="@+id/sell5"
+                android:layout_marginEnd="97dp"
+                android:layout_width="wrap_content"
+                android:layout_marginTop="40dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="right"
+                android:text="SELL"/>
+
+
+            <TextView
+                android:id="@+id/buy_digit1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="₦742"
+                android:layout_marginTop="10dp"
+                android:layout_marginEnd="30dp"
+                android:textColor="@color/black"
+                android:textStyle="bold"
+                android:layout_gravity="right"/>
+
+            <TextView
+                android:id="@+id/sell_digit1"
+                android:layout_marginEnd="30dp"
+                android:textColor="@color/black"
+                android:textStyle="bold"
+                android:text="₦745"
+                android:layout_width="wrap_content"
+                android:layout_marginTop="40dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="right"
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Date 17/12/2022"
+                android:gravity="center"
+                android:textStyle="bold"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="25dp"/>
+
+
+        </com.google.android.material.card.MaterialCardView>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"/>
+
+
+        <com.google.android.material.card.MaterialCardView
+            android:layout_width="match_parent"
+            android:layout_height="70dp">
+
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="1 CAD"
+                android:textStyle="normal"
+                android:drawablePadding="5dp"
+                android:drawableLeft="@drawable/canad"
+                android:textSize="16sp"
+                android:layout_gravity="center"/>
+
+            <TextView
+                android:id="@+id/buy4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="BUY"
+                android:layout_marginTop="10dp"
+                android:layout_marginEnd="100dp"
+                android:layout_gravity="right"/>
+
+            <TextView
+                android:id="@+id/sell4"
+                android:layout_marginEnd="97dp"
+                android:layout_width="wrap_content"
+                android:layout_marginTop="40dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="right"
+                android:text="SELL"/>
+
+
+            <TextView
+                android:id="@+id/buy_digit2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="₦742"
+                android:layout_marginTop="10dp"
+                android:layout_marginEnd="30dp"
+                android:textColor="@color/black"
+                android:textStyle="bold"
+                android:layout_gravity="right"/>
+
+            <TextView
+                android:id="@+id/sell_digit2"
+                android:layout_marginEnd="30dp"
+                android:textColor="@color/black"
+                android:textStyle="bold"
+                android:text="₦745"
+                android:layout_width="wrap_content"
+                android:layout_marginTop="40dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="right"
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Date 17/12/2022"
+                android:gravity="center"
+                android:textStyle="bold"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="25dp"/>
+
+
+        </com.google.android.material.card.MaterialCardView>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"/>
+
+
+        <com.google.android.material.card.MaterialCardView
+            android:layout_width="match_parent"
+            android:layout_height="70dp">
+
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="1 EUR"
+                android:textStyle="normal"
+                android:drawablePadding="5dp"
+                android:drawableLeft="@drawable/euro"
+                android:textSize="16sp"
+                android:layout_gravity="center"/>
+
+            <TextView
+                android:id="@+id/buy3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="BUY"
+                android:layout_marginTop="10dp"
+                android:layout_marginEnd="100dp"
+                android:layout_gravity="right"/>
+
+            <TextView
+                android:id="@+id/sell3"
+                android:layout_marginEnd="97dp"
+                android:layout_width="wrap_content"
+                android:layout_marginTop="40dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="right"
+                android:text="SELL"/>
+
+
+            <TextView
+                android:id="@+id/buy_digit3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="₦742"
+                android:layout_marginTop="10dp"
+                android:layout_marginEnd="30dp"
+                android:textColor="@color/black"
+                android:textStyle="bold"
+                android:layout_gravity="right"/>
+
+            <TextView
+                android:id="@+id/sell_digit3"
+                android:layout_marginEnd="30dp"
+                android:textColor="@color/black"
+                android:textStyle="bold"
+                android:text="₦745"
+                android:layout_width="wrap_content"
+                android:layout_marginTop="40dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="right"
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Date 17/12/2022"
+                android:gravity="center"
+                android:textStyle="bold"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="25dp"/>
+
+
+        </com.google.android.material.card.MaterialCardView>
+
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"/>
+
+
+        <com.google.android.material.card.MaterialCardView
+            android:layout_width="match_parent"
+            android:layout_height="70dp">
+
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="1 GHS"
+                android:textStyle="normal"
+                android:drawablePadding="5dp"
+                android:drawableLeft="@drawable/ghana"
+                android:textSize="16sp"
+                android:layout_gravity="center"/>
+
+
+            <TextView
+                android:id="@+id/buy2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="BUY"
+                android:layout_marginTop="10dp"
+                android:layout_marginEnd="100dp"
+                android:layout_gravity="right"/>
+
+            <TextView
+                android:id="@+id/sell1"
+                android:layout_marginEnd="97dp"
+                android:layout_width="wrap_content"
+                android:layout_marginTop="40dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="right"
+                android:text="SELL"/>
+
+
+            <TextView
+                android:id="@+id/buy_digit4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="₦742"
+                android:layout_marginTop="10dp"
+                android:layout_marginEnd="30dp"
+                android:textColor="@color/black"
+                android:textStyle="bold"
+                android:layout_gravity="right"/>
+
+            <TextView
+                android:id="@+id/sell_digit4"
+                android:layout_marginEnd="30dp"
+                android:textColor="@color/black"
+                android:textStyle="bold"
+                android:text="₦745"
+                android:layout_width="wrap_content"
+                android:layout_marginTop="40dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="right"
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Date 17/12/2022"
+                android:gravity="center"
+                android:textStyle="bold"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="25dp"/>
+
+
+        </com.google.android.material.card.MaterialCardView>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"/>
+
+
+        <com.google.android.material.card.MaterialCardView
+            android:layout_width="match_parent"
+            android:layout_height="70dp">
+
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="1 CNY"
+                android:textStyle="normal"
+                android:drawablePadding="5dp"
+                android:drawableLeft="@drawable/china"
+                android:textSize="16sp"
+                android:layout_gravity="center"/>
+
+
+
+            <TextView
+                android:id="@+id/buy"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="BUY"
+                android:layout_marginTop="10dp"
+                android:layout_marginEnd="100dp"
+                android:layout_gravity="right"/>
+
+            <TextView
+                android:id="@+id/sell"
+                android:layout_marginEnd="97dp"
+                android:layout_width="wrap_content"
+                android:layout_marginTop="40dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="right"
+                android:text="SELL"/>
+
+
+            <TextView
+                android:id="@+id/buy_digit5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="₦742"
+                android:layout_marginTop="10dp"
+                android:layout_marginEnd="30dp"
+                android:textColor="@color/black"
+                android:textStyle="bold"
+                android:layout_gravity="right"/>
+
+            <TextView
+                android:id="@+id/sell_digit5"
+                android:layout_marginEnd="30dp"
+                android:textColor="@color/black"
+                android:textStyle="bold"
+                android:text="₦745"
+                android:layout_width="wrap_content"
+                android:layout_marginTop="40dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="right"
+                />
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Date 17/12/2022"
+                android:gravity="center"
+                android:textStyle="bold"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="25dp"/>
+
+
+        </com.google.android.material.card.MaterialCardView>
+
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"/>
+
+
+
+    </LinearLayout>
+
+</RelativeLayout>
